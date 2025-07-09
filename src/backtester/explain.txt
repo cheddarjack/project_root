@@ -1,0 +1,3 @@
+backtester/:
+
+    backtest_runner.py is the main function in the backtesting project_roo

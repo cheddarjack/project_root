@@ -1,0 +1,15 @@
+pandas
+pyarrow 
+torch
+ib_insync 
+numpy
+pyyaml
+flask
+openpyxl
+numba
+tqdm
+matplotlib
+pypdf2
+cuda12x
+scikit-learn
+lightgbm

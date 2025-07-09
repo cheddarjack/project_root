@@ -1,0 +1,22 @@
+# Secrets & strategy edge
+/private/
+
+# Virtual environments
+venv/
+*.py[cod]
+__pycache__/
+
+# Data
+/data/*
+# but allow a small sample directory
+!data/day_data_test/
+
+# Generated output
+/output/results_long/*
+/output/results_short/
+/output/visual_trades/
+
+# Env files, logs, OS cruft
+.env
+*.log
+.DS_Store

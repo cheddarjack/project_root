@@ -1,0 +1,28 @@
+Directory:
+  data: '/home/cheddarjackk/Developer/project_root/data/day_data_test'
+  results: '/home/cheddarjackk/Developer/project_root/output'
+Main: 
+  RINGBUFFER: 2048
+  SMA: 2048
+  MIN_HITS: 4
+  MAX_HITS: 10
+  ORDER_TTL_SECONDS: 1
+  VISUALIZE: FALSE  # set to False to disable visualizations
+  WIPE_RESULTS_DIR: True
+Order:
+  min_time_since_exit: 900
+  min_idx: 30
+  med_osc_fluctuation: 0.05
+  sma_fluctuation: 2
+  hit_num: 5
+  min_idx_seconds: 60
+osc_engine:
+  hit_margin: 0.25
+  range_min: 1.25
+  amp_min: 0.75
+  max_window: 2048
+  stop_loss: 0.5
+  take_profit: 1
+tdqm:
+  on_off_1: False
+  on_off_2: False

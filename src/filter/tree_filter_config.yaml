@@ -1,0 +1,38 @@
+# ————————— DATA —————————
+data_file: "/home/cheddarjackk/Developer/project_root/filter/data/oscillator_learning_set.parquet"
+model_out: "/home/cheddarjackk/Developer/project_root/filter/tree_filter_model.joblib"
+target_col: "pnl"
+test_split: 0.15          # last 15% → test
+min_kept: 300             # never keep fewer than this
+
+# ——————— THRESHOLDS ———————
+proba_thresholds:
+  - 0.05
+  - 0.10
+  - 0.15
+  - 0.20
+  - 0.25
+  - 0.30
+  - 0.35
+  - 0.40
+  - 0.45
+  - 0.50
+  - 0.55
+  - 0.60
+  - 0.65
+  - 0.70
+  - 0.75
+  - 0.80
+  - 0.85
+  - 0.90
+  - 0.95
+
+# —————— LightGBM HYPERS ——————
+lgb:
+  n_estimators: 1200
+  learning_rate: 0.05
+  max_depth: 16
+  num_leaves: 31
+  subsample: 0.8
+  colsample_bytree: 0.8
+  random_state: 42
