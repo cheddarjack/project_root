@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Parallel back‑test runner – **rev 2025‑07‑01‑k**
 

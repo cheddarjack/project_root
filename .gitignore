@@ -7,6 +7,7 @@ venv/
 __pycache__/
 
 # Data
+/src/filter/data/
 /data/*
 # but allow a small sample directory
 !data/day_data_test/
@@ -16,7 +17,9 @@ __pycache__/
 /output/results_short/
 /output/visual_trades/
 
+
 # Env files, logs, OS cruft
 .env
 *.log
 .DS_Store
+.gitignore
